@@ -1,18 +1,20 @@
 #main-photo {
-    float:left
-    width: 350px;
+    float:left;
+    width: 500px;
     height: 350px;
 }
 
 .banner {
     background-color: rgb(187, 56, 78);
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(12, 1fr);
 }
 
 #banner-right {
-    float: right;
-    width: 684px;
-    height: 204px;
-    
+    grid-column: 2/12; /*starts from cell 2 and ends at cell 12*/
+    justify-self: center; /*center the item horizontally within the grid cell*/
+    align-self: center; /*center the item vertically within the grid cell*/
 }
 
 .oswald-title {
