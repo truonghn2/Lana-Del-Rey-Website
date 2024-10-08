@@ -1,0 +1,81 @@
+#main-photo {
+    float:left
+    width: 350px;
+    height: 350px;
+}
+
+.banner {
+    background-color: rgb(187, 56, 78);
+}
+
+#banner-right {
+    float: right;
+    width: 684px;
+    height: 204px;
+    
+}
+
+.oswald-title {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.oswald-header {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.card {
+    background: black;
+    color: rgb(187, 56, 78);
+    height: 80px;
+    flex: 1;
+  }
+
+.first {
+    flex: 1.5;
+}
+
+.second {
+    flex: 0.5;
+}
+
+.flex-container {
+    display: flex;
+    gap: 0.25rem;
+    padding-bottom: 10px;
+  }
+
+.image-column {
+    display:inline-flex;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+    float: left;
+    padding-right: 50px;
+}
+
+.pic-size {
+    width: 250px;
+    height: 250px;
+}
+.left {
+    width: 25%;
+}
+  
+.right {
+    width: 75%;
+}
