@@ -1,0 +1,22 @@
+.top-ten-container {
+    display: grid;
+    grid-column: 5/12;
+    color: rgb(187, 56, 78);
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    color: rgb(187, 56, 78);
+}
+
+.current-top-10-title {
+    display:grid;
+}
+
+.album-image {
+    width: 75px;
+    height: 75px;
+}

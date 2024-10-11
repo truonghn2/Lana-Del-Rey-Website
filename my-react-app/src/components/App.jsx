@@ -4,12 +4,14 @@ import './App.css'
 import Header from './Header.jsx';
 import articles from "../articles.js";
 import Card from "./Card.jsx";
+import TopTen from "./TopFive.jsx";
 
 function App() {
 
   return (
     <>
         <div>
+          
           <Header />
 
           <div className="card-container">
@@ -23,7 +25,13 @@ function App() {
               description={article.description}
             />
           ))}
+
+          <div className = "top-ten-container">
+            <TopTen/>
+
+          </div>
         </div>
+
 
         </div>
 

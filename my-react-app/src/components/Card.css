@@ -1,3 +1,8 @@
+.top-ten-container {
+  display: grid;
+  grid-column: 7/12;
+}
+
 .card-container {
   display: grid;
   gap: 1rem;
