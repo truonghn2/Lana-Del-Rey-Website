@@ -11,7 +11,7 @@ function Header() {
 
             <div className="nav-bar">
                 <h2 className="center oswald-header">HOME</h2>
-                <h2 className="center oswald-header">SONG RANKINGS</h2>
+                <h2 className="center oswald-header">ALBUMS</h2>
                 <h2 className="center oswald-header">TOUR DATES</h2>
             </div>
         </div>
