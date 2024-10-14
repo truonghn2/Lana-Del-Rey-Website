@@ -4,7 +4,7 @@ import './App.css'
 import Header from './Header.jsx';
 import articles from "../articles.js";
 import Card from "./Card.jsx";
-import TopTen from "./TopFive.jsx";
+import TopFive from "./TopFive.jsx";
 
 function App() {
 
@@ -26,11 +26,13 @@ function App() {
             />
           ))}
 
-          <div className = "top-ten-container">
-            <TopTen/>
+            <div className = "top-ten-container">
+              <TopFive />
 
+            </div>
           </div>
-        </div>
+
+          
 
 
         </div>
