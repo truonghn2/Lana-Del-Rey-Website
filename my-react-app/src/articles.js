@@ -8,7 +8,7 @@ const articles = [
     },
     {
       id: 2,
-      image: 'https://static.stereogum.com/uploads/2024/02/lana-del-rey-lasso-1706796995-1000x1000.jpg',
+      image: 'https://assets.billboardphilippines.com/wp-content/uploads/2024/02/lana-del-rey-ftr-img-1-1600x838.jpg',
       title: "Lana Del Rey's New Country Album 2024 - 'Lasso'",
       description: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Nibh nec nascetur senectus metus tincidunt sollicitudin mus felis...',
       date: '9/20/24',
