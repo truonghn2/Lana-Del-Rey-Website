@@ -1,4 +1,5 @@
 function Header() {
+    // const randomNum = Math.random()
     return (
         <div>
             <div className="banner">

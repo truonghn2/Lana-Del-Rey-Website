@@ -48,7 +48,7 @@ function TopFive() {
                 {songData.map((song, index) => (
                     <div key={index} className={`song-${index + 1}`}>
                         <h1 
-                            className="center oswald-header" 
+                            className="oswald-header" 
                             style={getStyle(index)} 
                             onMouseEnter={() => setHoverIndex(index)} 
                             onMouseLeave={() => setHoverIndex(null)} 
