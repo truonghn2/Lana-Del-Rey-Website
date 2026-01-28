@@ -3,7 +3,7 @@ function Header() {
     return (
         <div>
             <div className="banner">
-                <img id="main-photo" src="/LanaDelReyPic.png" alt="Picture of Lana Del Rey"></img>
+                <img id="main-photo" src={`${import.meta.env.BASE_URL}LanaDelReyPic.png`} alt="Picture of Lana Del Rey"></img>
 
                 <div id="banner-right">
                     <h1 className="oswald-title">LANA DEL REY</h1>
